@@ -1,0 +1,91 @@
+
+.container {
+    position:relative;
+    width: 1364px;
+    height: 950px;
+}
+
+#screenshot {
+    position: absolute;
+    background-size: contain;
+    width: 1364px;
+    height: 950px;
+    background-image: url("../img/ss/ss-1-actionplan.png");
+    background-repeat: no-repeat;
+}
+
+#middle {
+  border:1px solid red;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+
+#action {
+  /* border:1px solid green; */
+  width: 300px;
+  height: 258px;
+  position: absolute;
+  top: 459px;
+  left: 373px;
+}
+
+#actiondesc {
+  /* border:1px solid green; */
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 310px;
+  left: 850px;
+}
+
+#exporttocsv {
+  /* border:1px solid blue; */
+  width: 66px;
+  height: 21px;
+  position: absolute;
+  top: 588px;
+  left: 1068px;
+}
+
+#healthcheck {
+  /* border:1px solid red; */
+  width: 1048px;
+  height: 268px;
+  position: absolute;
+  top: 214px;
+  left: 266px;
+}
+
+#performance {
+  /* border:1px solid green; */
+  width: 1048px;
+  height: 269px;
+  position: absolute;
+  top: 530px;
+  left: 266px;
+}
+
+#actionstab {
+  /* border:1px solid green; */
+  width: 322px;
+  height: 50px;
+  position: absolute;
+  top: 84px;
+  left: 357px;
+}
+
+#filter {
+  /* border:1px solid green; */
+  width: 229px;
+  height: 278px;
+  position: absolute;
+  top: 535px;
+  left: 23px;
+}
+
+.pageId {
+  font-size: 10px;
+}

@@ -1,0 +1,53 @@
+To Research
+---------------
+
+5) Research how to set a scalable div which contains an image which doesn't resize.
+6) Overlay a child div grid where I can attach the hopscotch bubble
+
+
+Already Solved
+---------------
+1) Optimise screenshot image to 8 bit png.
+2) Use a callback in Hopscotch to change the background image div to show the next page in the screenshot
+
+steps: [
+  {
+    target: 'divId',
+    placement: 'bottom',
+    title: 'My First Step',
+    onPrev: function() {
+      $('#screenshot').css("background-image", "url(path/onPrev.jpg)");
+    }
+    onNext: function() {
+      $('#screenshot').css("background-image", "url(path/onNext.jpg)");
+    }
+  }
+]
+
+3) Change the background colour of the hopscotch bubble
+
+  border: 5px solid rgba(246, 240, 54);
+  border: 8px solid rgba(246, 240, 54, 0.7);
+
+  border-bottom: 17px solid rgb(246, 240, 54);
+  border-bottom: 17px solid rgba(246, 240, 54, 0.7);
+
+  border-top: 17px solid rgb(246, 240, 54);
+  border-top: 17px solid rgba(246, 240, 54, 0.7);
+
+  border-right: 17px solid rgb(246, 240, 54);
+  border-right: 17px solid rgba(246, 240, 54, 0.7);
+
+  border-left: 17px solid rgb(246, 240, 54);
+  border-left: 17px solid rgba(246, 240, 54, 0.7);
+
+
+  4) Redirect if mobile screensize detected.
+
+      if ($(window).width() < 480){
+        window.location = "http://www.glasshat.com/continue";
+    }
+5) Hide arrow
+  $('.hopscotch-bubble-arrow-container').hide();
+
+  6) #FF3232
