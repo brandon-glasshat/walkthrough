@@ -325,11 +325,11 @@ div.hopscotch-bubble .hopscotch-nav-button.prev:hover {
 }
 div.hopscotch-bubble {
   /* background-color: #ffffff;  */
-  background-color: rgb(255, 255, 165); /* Post-it Note background
+  background-color: rgb(255, 255, 255); /* white bckground
   /* border: 5px solid #000000; */
-  border: 5px solid rgb(51, 51, 51); /* grey border */
+  border: 5px solid rgb(255, 102, 0); /* blue border */
   /* default */
-  border: 5px solid rgba(51, 51, 51, 0.5);
+  border: 5px solid rgba(255, 102, 0, 0.5);
   /* transparent, if supported */
   color: #333;
   font-family: Helvetica, Arial;
@@ -405,7 +405,7 @@ div.hopscotch-bubble.no-number .hopscotch-bubble-content {
 }
 div.hopscotch-bubble .hopscotch-bubble-close {
   color: #000;
-  background: transparent url(../img/sprite-green.png) -192px -92px no-repeat;
+  background: transparent url(../img/green-blue.png) -192px -92px no-repeat;
   display: block;
   padding: 8px;
   position: absolute;
@@ -452,15 +452,15 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.up {
 }
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.up .hopscotch-bubble-arrow {
   /* border-bottom: 17px solid #ffffff; */
-  border-bottom: 17px solid rgb(255, 255, 165); /* post-it note */
+  border-bottom: 17px solid rgb(255, 255, 255); /* post-it note */
   border-left: 17px solid transparent;
   border-right: 17px solid transparent;
   position: relative;
   top: -10px;
 }
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.up .hopscotch-bubble-arrow-border {
-  border-bottom: 17px solid rgb(51, 51, 51);
-  border-bottom: 17px solid rgba(51, 51, 51, 0.5);
+  border-bottom: 17px solid rgb(255, 102, 0);
+  border-bottom: 17px solid rgba(255, 102, 0, 0.5);
   border-left: 17px solid transparent;
   border-right: 17px solid transparent;
 }
@@ -470,15 +470,15 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.down {
 }
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-arrow {
   /* border-top: 17px solid #ffffff; */
-  border-top: 17px solid rgb(255, 255, 165); /* post-it note */
+  border-top: 17px solid rgb(255, 255, 255); /* post-it note */
   border-left: 17px solid transparent;
   border-right: 17px solid transparent;
   position: relative;
   top: -24px;
 }
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.down .hopscotch-bubble-arrow-border {
-  border-top: 17px solid rgb(51, 51, 51);
-  border-top: 17px solid rgba(51, 51, 51, 0.5);
+  border-top: 17px solid rgb(255, 102, 0);
+  border-top: 17px solid rgba(255, 102, 0, 0.5);
   border-left: 17px solid transparent;
   border-right: 17px solid transparent;
 }
@@ -489,15 +489,15 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.left {
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.left .hopscotch-bubble-arrow {
   border-bottom: 17px solid transparent;
   /* border-right: 17px solid #ffffff; */
-  border-right: 17px solid rgb(255, 255, 165); /* post-it note */
+  border-right: 17px solid rgb(255, 255, 255); /* post-it note */
   border-top: 17px solid transparent;
   position: relative;
   left: 7px;
   top: -34px;
 }
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.left .hopscotch-bubble-arrow-border {
-  border-right: 17px solid rgb(51, 51, 51);
-  border-right: 17px solid rgba(51, 51, 51, 0.5);
+  border-right: 17px solid rgb(255, 102, 0);
+  border-right: 17px solid rgba(255, 102, 0, 0.5);
   border-bottom: 17px solid transparent;
   border-top: 17px solid transparent;
 }
@@ -508,15 +508,15 @@ div.hopscotch-bubble .hopscotch-bubble-arrow-container.right {
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.right .hopscotch-bubble-arrow {
   border-bottom: 17px solid transparent;
   /* border-left: 17px solid #ffffff; */
-  border-left: 17px solid rgb(255, 255, 165); /* post-it note */
+  border-left: 17px solid rgb(255, 255, 255); /* post-it note */
   border-top: 17px solid transparent;
   position: relative;
   left: -7px;
   top: -34px;
 }
 div.hopscotch-bubble .hopscotch-bubble-arrow-container.right .hopscotch-bubble-arrow-border {
-  border-left: 17px solid rgb(51, 51, 51);
-  border-left: 17px solid rgba(51, 51, 51, 0.5);
+  border-left: 17px solid rgb(255, 102, 0);
+  border-left: 17px solid rgba(255, 102, 0, 0.5);
   border-bottom: 17px solid transparent;
   border-top: 17px solid transparent;
 }

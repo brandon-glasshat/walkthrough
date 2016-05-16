@@ -43,6 +43,7 @@ var tour = {
       placement: 'top',
       arrowOffset: 0,
       zindex: 2,
+      highlight: true,
       xOffset: 'center',
       yOffset: 'center',
       onPrev: function() {
